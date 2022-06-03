@@ -8,6 +8,7 @@
   <!-- MDB -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
 </head>
+<body>
 <section class="vh-100" style="background-color: #4B515D;">
   <div class="container py-5 h-100">
 
@@ -56,5 +57,10 @@
      <p>-temp: {{ info[0] }} -humi: {{ info[1] }} -pressure: {{ info[2] }}</p>
   {% endif %}
 </div> -->
-
+</body>
+<script>
+  setTimeout(function(){
+   window.location.reload(1);
+}, 20000);
+</script>
 </html>
